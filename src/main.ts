@@ -1,5 +1,10 @@
-let hello_world:string;
 
-hello_world = 'Hello World';
+function Log(target:any){
+    console.log(target);
+}
 
-console.log(hello_world);
+
+class Example {}
+
+@Log
+class Example1 {}
